@@ -47,14 +47,3 @@ https://lanhuapp.com/url/mMIwJ
 
 项目采用 SCSS 进行项目CSS源码文件管理，为了方便后期的维护升级，我们将CSS源码按照不同的页面以及页面中不同的板块进行分文件管理，并以页面名称命名文件夹，以页面板块名称命名每一个页面板块SCSS文件。
 
-样例目录结构
-
-``` --app
- |--styles |--pages |--service-details |--index.scss |--comp-pro-intro.scss |--comp-cost-explain.scss ``` 每个页面的SCSS文件有一个index.scss文件统一输出，其他的模块样式SCSS文件则必须在这个页面的index.scss文件中被引用。就像这样
-
-service-details - index.scss
-``` @import "comp-pro-intro"; @import "comp-aptitude-licence"; @import "comp-organization-intro"; @import "comp-cost-explain"; ```   项目中styles根目录的plugin文件是用于存放当前项目的所有样式配置文件的，它们均已plug-开头。
-
-``` plug-common.scss //全局公共工具样式 plug-function.scss //scss公用函数调用 plug-mixin.scss //scss公用mixin方法调用 plug-varibale.scss //项目主题配置申明方案   ```   ## javascript 管理
-
-对于JS的目录结构管理，暂时与SCSS的目录结构管理类似。
