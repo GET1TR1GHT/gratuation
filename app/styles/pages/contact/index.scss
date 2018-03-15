@@ -1,0 +1,150 @@
+.imgbox {
+  ul {
+    #contact1 {
+      background: url("../../../images/image/contactbanner.png") no-repeat center center;
+      background-size: cover;
+    }
+    #contact2 {
+      background: url("../../../images/image/contactbanner1.png") no-repeat center center;
+      background-size: cover;
+    }
+    #contact3 {
+      background: url("../../../images/image/contactbanner2.png") no-repeat center center;
+      background-size: cover;
+    }
+  }
+}
+
+.contact-menu {
+  .contactrow {
+    .to-booking-now {
+      text-align: center;
+      h1 {
+        font-size: 27px;
+        font-weight: 200;
+        margin-bottom: 30px;
+      }
+      p {
+        width: 50%;
+        height: auto;
+        margin: 0 auto;
+        line-height: 30px;
+        font-size: 20px;
+        font-weight: 200;
+        margin-bottom: 30px;
+      }
+      button {
+        width: 200px;
+        height: 50px;
+        background-color: transparent;
+        border: 0;
+        box-shadow: 0 0 4px black;
+        border-radius: 4px;
+      }
+      margin-bottom: 50px;
+    }
+    .contact-form {
+      margin-bottom: 100px;
+      .contact-form-inside {
+        width: 50%;
+        height: auto;
+        margin: 0 auto;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 3% 5%;
+        form {
+          width: 100%;
+          label[for='name'], label[for='email'], label[for='message'] {
+            width: 100%;
+            font-size: 20px;
+            padding: 10px 0;
+            input, textarea {
+              margin-top: 10px;
+              display: block;
+              border: 1px solid #ccc;
+              width: 100%;
+            }
+          }
+          button {
+            width: 100px;
+            height: 30px;
+            background-color: transparent;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            margin-bottom: 20px;
+          }
+          button:hover {
+            background-color: #E4E1E1;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .contact-menu {
+    .contactrow {
+      .to-booking-now {
+        p {
+          width: 70%;
+        }
+      }
+      .contact-form {
+        .contact-form-inside {
+          width: 70%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 721px) {
+  .contact-menu {
+    .contactrow {
+      .contact-form {
+        .contact-form-inside {
+          width: 90%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .contact-menu {
+    .contactrow {
+      .to-booking-now {
+        h1 {
+          font-size: 20px;
+        }
+        p {
+          width: 90%;
+          font-size: 16px;
+        }
+      }
+      .contact-form {
+        .contact-form-inside {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 408px) {
+  .contact-menu {
+    .contactrow {
+      .to-booking-now {
+        h1 {
+          font-size: 16px;
+        }
+        p {
+          width: 100%;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+

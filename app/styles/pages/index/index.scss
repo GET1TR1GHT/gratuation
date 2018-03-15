@@ -1,0 +1,522 @@
+.recommendation {
+  .recommendation-inslide {
+    .title {
+      height: 30px;
+      font-size: 36px;
+      margin: 90px auto;
+      font-family: 'Anaheim', sans-serif;
+      text-align: center;
+    }
+    .recommendation1 {
+      min-height: 400px;
+      margin-bottom: 35px;
+      img {
+        width: 100%;
+      }
+      .charset {
+        width: 100%;
+        padding: 15px 0;
+        height: 80px;
+        h1 {
+          font-size: 20px;
+          padding-bottom: 10px;
+          text-transform: uppercase;
+        }
+        p {
+          float: left;
+          color: gray;
+          text-transform: capitalize;
+        }
+        span {
+          float: right;
+          color: #ccc;
+          font-size: 14px;
+          font-weight: 200;
+          text-transform: capitalize;
+        }
+      }
+    }
+    .middue {
+      float: right;
+      transform: translateY(250px);
+    }
+  }
+}
+
+.more {
+  .title {
+    width: 100%;
+    height: 30px;
+    font-size: 36px;
+    margin: 90px auto;
+    font-family: 'Anaheim', sans-serif;
+    text-align: center;
+  }
+  .big-pic-in-more, .small-pic-in-more {
+    padding: 0;
+  }
+  .big-pic-in-more {
+    .big-more {
+      min-height: 320px;
+      background-color: black;
+
+    }
+  }
+  .small-pic-in-more {
+    .small-more, .more-button {
+      min-height: 160px;
+      background-color: #ccc;
+      p {
+        text-align: center;
+        cursor: pointer;
+        vertical-align: middle;
+        a {
+          color: black;
+        }
+      }
+    }
+    .more-button {
+      position: relative;
+      p {
+        position: absolute;
+        top: 45%;
+        left: 40%;
+      }
+    }
+  }
+}
+
+.wecando {
+  min-height: 800px;
+  .wecan {
+    min-height: 800px;
+    .title {
+      width: 100%;
+      height: 30px;
+      font-size: 36px;
+      margin: 90px auto;
+      font-family: 'Anaheim', sans-serif;
+      text-align: center;
+    }
+    .doone {
+      min-height: 558px;
+      margin-bottom: 100px;
+      .dooneleft {
+        text-align: center;
+        img {
+          width: 100%;
+        }
+      }
+      .dooneright {
+        padding: 20px 0;
+        h1 {
+          font-size: 40px;
+          margin-bottom: 48px;
+          font-family: 'Anaheim', sans-serif;
+          width: 100%;
+          padding-left: 20%;
+        }
+        p {
+          font-size: 24px;
+          color: #615C63;
+          margin-bottom: 48px;
+          width: 100%;
+          font-weight: 200;
+          line-height: 28px;
+          padding-left: 20%;
+        }
+        button {
+          color: #008FE1;
+          border: 3px solid #008FE1;
+          border-radius: 19px;
+          background-color: #fff;
+          width: 154px;
+          height: 44px;
+          font-family: 'Anaheim', sans-serif;
+          font-size: 24px;
+          outline: none;
+          margin-left: 20%;
+        }
+      }
+    }
+    .dotwo {
+      min-height: 530px;
+      margin-bottom: 100px;
+      .dotwoleft {
+        padding: 20px 0;
+        .left-center {
+          width: 90%;
+          height: auto;
+          float: right;
+        }
+        h1 {
+          font-size: 40px;
+          margin-bottom: 48px;
+          font-family: 'Anaheim', sans-serif;
+          width: 100%;
+          padding-right: 20%;
+        }
+        p {
+          font-size: 24px;
+          color: #615C63;
+          margin-bottom: 48px;
+          width: 100%;
+          font-weight: 200;
+          line-height: 28px;
+          width: 100%;
+          padding-right: 20%;
+        }
+        button {
+          color: #008FE1;
+          border: 3px solid #008FE1;
+          border-radius: 19px;
+          background-color: #fff;
+          width: 154px;
+          height: 44px;
+          font-family: 'Anaheim', sans-serif;
+          font-size: 24px;
+          outline: none;
+          margin-right: 20%;
+        }
+      }
+      .dotworight {
+        text-align: center;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.ourphotoer {
+  min-height: 800px;
+  margin-bottom: 100px;
+  background-image: linear-gradient(-180deg, #f8f8f8 0%, #fff 100%);
+  .title {
+    width: 100%;
+    height: 30px;
+    font-size: 36px;
+    margin: 90px auto;
+    font-family: 'Anaheim', sans-serif;
+    text-align: center;
+  }
+  .row {
+    .photographer {
+      text-align: center;
+      height: auto;
+      padding: 0 50px;
+      width: 33.33333333%;
+      display: none;
+      float: left;
+      transform: scale(0.9);
+      .insidephotoer {
+        width: 100%;
+        box-shadow:0 10px 20px 0 #f0f0f0;
+        border-radius: 5px;
+        padding: 30px 5%;
+        margin-top: 60px;
+        opacity: 0.7;
+        cursor: pointer;
+        background: #ffffff;
+        .icon {
+          width: 66px;
+          height: 66px;
+
+          border-radius: 66px;
+          margin: 0 auto;
+          position: relative;
+          .icon-weibo{
+            height:22px;
+            width:22px;
+            background-color: red;
+            position: absolute;
+            border-radius: 20px;
+            right: 1px;
+            img{
+              width: 16px;
+              display: block;
+              position: relative;
+              top: 3px;
+              left: 3px;
+              right: 0;
+              bottom: 0;
+            }
+          }
+          .icon-weibo:hover{
+            width: 30px;
+            height: 30px;
+            right: 0;
+            img{
+              top:8px;
+              left: 7px;
+            }
+          }
+        }
+        h1 {
+          font-size: 20px;
+          font-weight: 700;
+          padding: 10px 0;
+        }
+        h2 {
+          font-size: 15px;
+          font-weight: 300;
+          padding-bottom: 10px;
+        }
+        p {
+          line-height: 20px;
+          font-size: 1rem;
+          font-weight: 100;
+          padding: 10px 0;
+          font-style: italic;
+          line-height: 1.66667;
+          -webkit-font-smoothing: antialiased;
+          font-family: "Montserrat",  "Segoe UI";
+          letter-spacing: 1px;
+          word-spacing: 1px;
+        }
+        img{
+          display: none;
+          position: absolute;
+          bottom: -30px;
+          left: 50px;
+        }
+      }
+    }
+    .photographer-left{
+      display: block;
+      float: left;
+      transform: scale(0.9);
+      position: absolute;
+      left: 33.333333333%;
+      transform: translateX(-100%);
+    }
+    .photographer-right{
+      display: block;
+      float: right;
+      transform: scale(0.9);
+      position: absolute;
+      left: 33.3333333333%;
+      transform: translateX(100%);
+    }
+    .photographer-middule{
+      padding:15px 0;
+      position: relative;
+      display: block;
+      transform: scale(1);
+      position: absolute;
+      left: 33.3333333333%;
+      transform: translateX(0);
+      .insidephotoer{
+        margin-top: 0px;
+        padding: 60px 5%;
+        opacity: 1;
+        .icon{
+          width: 86px;
+          height: 86px;
+          border-radius: 86px;
+        }
+        h1{
+          font-size: 25px;
+        }
+        h2{
+          font-size: 20px;
+        }
+        p{
+          font-size: 20px;
+          line-height: 28px;
+          font-weight: 200;
+        }
+        img{
+          display: block;
+          position: absolute;
+          bottom: -30px;
+          left: 50px;
+        }
+      }
+    }
+  }
+}
+
+.contactus {
+  min-height: 170px;
+  .contactus-left {
+    h1, h2 {
+      font-size: 34px;
+      font-weight: 300;
+      min-height: 45px;
+      line-height: 45px;
+      word-spacing: 6px;
+      letter-spacing: 1px;
+    }
+  }
+  .contactus-right {
+    button {
+      border-radius: 15px;
+      height: 80px;
+      background-color: transparent;
+      font-size: 25px;
+      font-weight: 200;
+      border: 0;
+      width: 42%;
+    }
+    .button1 {
+      background-color: black;
+      color: #fff;
+      box-shadow: 0 0 4px black;
+      margin-right: 4%;
+    }
+    .button2 {
+      box-shadow: 0 0 4px black;
+      color: black;
+    }
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .more {
+    .big-pic-in-more {
+      .big-more {
+        min-height: 420px;
+      }
+    }
+    .small-pic-in-more {
+      .small-more, .more-button {
+        min-height: 210px;
+      }
+    }
+  }
+  .wecando {
+    .wecan {
+      .doone {
+        min-height: 400px;
+        margin-bottom: 50px;
+        .dooneright {
+          h1 {
+            margin-bottom: 20px;
+            padding: 0;
+          }
+          p {
+            font-size: 18px;
+            padding: 0;
+            margin-bottom: 20px;
+          }
+          button {
+            margin: 0;
+          }
+        }
+      }
+      .dotwo {
+        min-height: 400px;
+        margin-bottom: 50px;
+        .dotwoleft {
+          .left-center {
+            width: 100%;
+          }
+          h1 {
+            margin-bottom: 20px;
+            padding: 0;
+          }
+          p {
+            font-size: 18px;
+            padding: 0;
+            margin-bottom: 20px;
+          }
+          button {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contactus {
+    .contactus-left {
+      text-align: center;
+      h1, h2 {
+        float: left;
+        font-size: 24px;
+        word-spacing: 2px;
+        letter-spacing: 0;
+        margin-bottom: 20px;
+      }
+    }
+    .contactus-right {
+      clear: both;
+      margin-bottom: 30px;
+      button {
+        width: 35%;
+        font-size: 12px;
+        height: 40px;
+      }
+      .button1 {
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .recommendation {
+    .recommendation-inslide {
+      .middue {
+        transform: translateY(0);
+      }
+    }
+  }
+  .more {
+    .big-pic-in-more {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .small-pic-in-more {
+      .small-more {
+        //margin-bottom: 20px;
+        //padding: 15px;
+      }
+      .more-button {
+        background-color: #fff;
+        border: 0;
+        p {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+  .wecando {
+    .wecan {
+      .doone {
+        min-height: 340px;
+        .dooneright {
+          h1 {
+            text-align: center;
+            font-size: 28px;
+            border-bottom: 1px dotted #ccc;
+            height: 50px;
+          }
+          button {
+            display: block;
+            margin: 0 auto;
+          }
+        }
+      }
+      .dotwo {
+        min-height: 340px;
+        .dotwoleft {
+          h1 {
+            text-align: center;
+            font-size: 28px;
+            border-bottom: 1px dotted #ccc;
+            height: 50px;
+          }
+          button {
+            display: block;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+}

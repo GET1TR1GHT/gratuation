@@ -1,0 +1,113 @@
+.imgbox {
+  ul {
+    #booking1 {
+      background: url("../../../images/image/booking.png") no-repeat center center;
+      background-size: cover;
+    }
+    #booking2 {
+      background: url("../../../images/image/booking1.png") no-repeat center center;
+      background-size: cover;
+    }
+    #booking3 {
+      background: url("../../../images/image/booking2.png") no-repeat center center;
+      background-size: cover;
+    }
+  }
+}
+
+.booking-menu {
+  margin-bottom: 50px;
+  .bookingrow {
+    .booking-form {
+      width: 100%;
+      .booking-form-inside {
+        width: 50%;
+        margin: 0 auto;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 3% 5%;
+        h1 {
+          font-size: 27px;
+          text-align: center;
+        }
+        form {
+          width: 100%;
+          p {
+            font-size: 20px;
+            padding: 10px 0;
+          }
+          label {
+            width: 100%;
+            p {
+              font-size: 20px;
+              padding: 10px 0;
+            }
+            input, textarea {
+              width: 100%;
+              display: inline-block;
+              border: 1px solid #ccc;
+              margin-bottom: 10px;
+            }
+            select {
+              float: left;
+              display: block;
+              width: 100%;
+              background-color: #fff;
+              margin-bottom: 10px;
+              border: 1px solid #ccc;
+            }
+          }
+          button {
+            width: 100px;
+            height: 30px;
+            background-color: transparent;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            margin-bottom: 20px;
+          }
+          button:hover {
+            background-color: #E4E1E1;
+          }
+          .appointment {
+            float: left;
+            width: 25%;
+            margin-right: 5%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .booking-menu {
+    .bookingrow {
+      .booking-form {
+        .booking-form-inside {
+          width: 70%;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .booking-menu {
+    .bookingrow {
+      .booking-form {
+        .booking-form-inside {
+          width: 100%;
+          form{
+            label{
+              p{
+                font-size: 14px;
+              }
+            }
+            p{
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
