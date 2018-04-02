@@ -22,9 +22,7 @@ https://lanhuapp.com/url/mMIwJ
 
 你需要通过git工具来下载基于SourceTree的仓库的项目源代码。
 
-仓库地址：
 
-```ssh git@git.ieyuan.com:howyoung/howyoung.globalcare.web.frontend.git ```   ## 安装依赖
 
 此项目前端开发环境需要 node.4.x 以上的Node.js版本支持，建议使用 version-6.8 或更高版本来构建项目。
 
